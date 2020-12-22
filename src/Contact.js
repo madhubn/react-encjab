@@ -1,6 +1,6 @@
 import React from "react";
 
-class Contact extends React.component {
+class Contact extends React.Component {
   render() {
     return "Hello, Hi Madhu";
   }
