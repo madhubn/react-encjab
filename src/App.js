@@ -3,6 +3,7 @@ import "./style.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Contact from "./Contact";
+import About from "./About";
 
 // export default function App() {
 //   return (
@@ -26,6 +27,9 @@ class App extends React.Component {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
           </ul>
 
           <hr />
@@ -43,6 +47,9 @@ class App extends React.Component {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
           </Switch>
         </div>
